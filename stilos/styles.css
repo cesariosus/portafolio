@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+
+body{
+   font-family: 'Cinzel', serif;
+   color: black;
+   margin:0;
+   box-sizing: border-box;
+  
+
+   background:linear-gradient( 90deg,
+   rgb(43, 42, 41),
+   rgb(247, 245, 248),
+   rgb(46, 44, 43)
+ 
+   );
+}
+
+h1{ font-size: 2.3em;}
+h2{ font-size: 1.5em;}
+h3{ font-size: 1.4em;}
+
+
+.container{
+   max-width: 1400px;
+   margin: auto;
+}
+
+
+
+header{
+   background-color: rgb(245,245,245);
+   
+}
+
+header .logo{
+   margin: 0;
+   padding: 25px 30px;
+   font-weight: bold;
+   font-size: 1.6em;
+
+}
+
+header .container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+header nav{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   padding-bottom: 25px;
+}
+
+header a{
+   padding: 5px 12px;
+   text-decoration: none;
+   font-weight: bold;
+   color: black;
+}
+
+a:hover{
+   color: rgb(206, 87, 18);
+
+}
+
+#hero{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   height: 80vh;
+}
+
+
+footer .contenedor{
+    width: 40px;
+    
+   
+}
+   
+
+
+
+
+
